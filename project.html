@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="path"></div>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+        </ul>
+    <div class="bikes">
+        <li><img id="bik" src="bike1.png" onclick="big('bike1.png')"></li>
+        <li><img src="bike2.png" onclick="big('bike1.png')"></li>
+        <li><img src="bike3.png"  onclick="big('bike1.png')"></li>
+    </div>
+    <div class="bigbike" id="db" >
+        <img  src="bigbike.png" alt="img" class="big">
+    </div>
+    
+    <div class="content">
+        <h1>New Bikes in India</h1> <br> <br><br>
+        <h4> <br> <br> &#x1F60E;  Finding the right bike can be a complicated process for most of us.<br><br>
+            You can search bikes based on brands, body styles, price, and displacement.&#x1F49D; </h4>
+
+    </div>
+</div>
+
+<script>
+    function big(img){
+        document.querySelector('big').src=img;
+    }
+</script>
+<!-- 
+<script src="pro.js"></script>    -->
+</body>
+</html>
